@@ -16,7 +16,7 @@
 14. Iterative Big O
 
 Working On:
-- Iterative Version
+- Iterative Version - stringSplitter not done
 
 Not Done:
 - Recursive Big O

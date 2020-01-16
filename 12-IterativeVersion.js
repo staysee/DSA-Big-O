@@ -30,7 +30,45 @@ function reverseString(str){
     }
     console.log(result);
 }
+
 // 4. nth Triangular Number
+function triangularNumber(num){
+    let result = 0;
+    
+    for (let i=0; i<num; i++){
+        result += (i+1)
+        console.log(result)
+    }
+}
+//triangularNumber(10)
+
 // 5. String Splitter
+function stringSplitter(str, separator){
+    
+}
+
 // 6. Fibonacci
+function fibonacci(num){
+    let a = 0;
+    let b = 1;
+    let temp = 1;
+
+    for(let i=0; i<=num; i++){
+        temp = a + b;
+        a = b;
+        b = temp;
+
+        console.log(temp)
+    }
+}
+//fibonacci(10)
+
 // 7. Factorial
+function factorial(num){
+    let result = 1;
+    for (let i=num; i>0; i--){
+        result *= i
+    }
+    console.log(result)
+}
+//factorial(5)
