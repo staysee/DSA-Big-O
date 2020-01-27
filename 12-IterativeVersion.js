@@ -44,8 +44,24 @@ function triangularNumber(num){
 
 // 5. String Splitter
 function stringSplitter(str, separator){
-    
+    let results = []
+    let temp = []
+
+    for (let i=0; i<str.length; i++){
+        if (str[i] !== separator){
+            temp.push(str[i])
+        } else {
+            results.push(temp.join(''))
+            temp = []
+        }
+
+        if (i === str.length-1){
+            results.push(temp.join(''))
+        }
+    }
+    console.log(results)
 }
+stringSplitter("02/20/2020", "/")
 
 // 6. Fibonacci
 function fibonacci(num){
