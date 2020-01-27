@@ -11,13 +11,12 @@
 9. Random Element - done
 10. What am I - done
 11. Tower of Hanoi - done
-12. Iterative Version
+12. Iterative Version - done
 13. Recursive Big O
 14. Iterative Big O
 
 Working On:
-- Iterative Version - stringSplitter not done
+- Recursive Big O
 
 Not Done:
-- Recursive Big O
 - Iterative Big O
