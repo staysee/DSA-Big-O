@@ -12,11 +12,7 @@
 10. What am I - done
 11. Tower of Hanoi - done
 12. Iterative Version - done
-13. Recursive Big O
-14. Iterative Big O
+13. Recursive Big O - done (except the functions I didn't do like the maze or orgchart)
+14. Iterative Big O - done
 
-Working On:
-- Recursive Big O
 
-Not Done:
-- Iterative Big O
